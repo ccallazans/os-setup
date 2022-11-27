@@ -10,6 +10,7 @@ sudo dnf groupupdate sound-and-video -y;
 sudo dnf install gnome-tweaks -y;
 sudo dnf install gnome-shell-extension-appindicator.noarch -y;
 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo;
 flatpak install flathub com.discordapp.Discord \
                         com.spotify.Client \
                         org.telegram.desktop \
